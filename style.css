@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar section */
+
+.container{
+    margin: 10px 30px;
+}
+.navbar-container{
+    display: flex;
+
+}
+.navbar-container img{
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* list section  */
+
+.list{
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+
+}
+.list li{
+    position: relative;
+    left: 300px;
+    margin: 20px;
+    padding: 10px;
+    font-family: gstatic;
+
+}
+/* button section */
+.button-group{
+    position: absolute;
+    left: 900px;
+    display: flex;
+}
+/* search section and button section */
+.search-icon{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.nav-button{
+    margin-top: 21px;
+    margin-left: 37px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+}
+/* image section */
+.square img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 530px;
+    left: 330px;
+    z-index: -1;
+
+}
+.star img{
+    align-items: flex-end;
+    position: absolute;
+    top: 150px;
+    left: 1019px;
+    width: 50px;
+    height: 50px;
+}
+.globe img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    justify-items: center;
+    left: 732px;
+    top: 0;
+}
+
+/* hero banner section */
+
+.hero-container-right{
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.hero-heading{
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+.hero-description{
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+/* button section */
+
+.button-email{
+    margin: 2px 8px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:150px;
+}
+.button-join{
+    margin: 2px 4px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:100px;
+    background-color: black;
+    color: white;
+}
+/* contact section */
+.contact-heading{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+.icons{
+    position: absolute;
+    left: 40%;
+    top: 500px;
+}
